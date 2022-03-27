@@ -1,0 +1,79 @@
+.card{
+   
+    display: flex;
+    padding: 10px;
+    
+}
+
+.img-style{
+
+    height: 260px;
+    width: 180px;
+    border-radius: 12px;
+}
+.img-loc{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+.desc-loc{
+    padding: 25px;
+}
+.country{   
+    font-size: 20px;
+    display: flex;
+}
+
+.fa-styling{
+   margin-right: 3px;
+    color: brown;
+}
+
+.gmap-loc{
+    color: gray;
+    font-size: 19px;
+    margin-left: 15px;
+}
+
+.name-loc{
+    margin-top: 5px;
+}
+
+.date-loc{
+    margin-top: 30px;;
+    font-weight: bold;
+}
+
+.about-loc{
+    margin-top: 10px;
+}
+
+
+
+@media screen and (max-width: 650px){
+
+    .img-style{
+
+        height: 260px;
+        width: 300px;
+        border-radius: 12px;
+    }
+    
+    .card{   
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .country{
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .desc-loc{
+        text-align: center;
+    }
+
+
+}
